@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "af-agent"
+version = "0.1.0"
+description = ""
+authors = ["Brian McKean <brian@rethlasoft.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.13,<3.14"
+huggingface-hub = "^0.35.3"
+jupyter = "^1.1.1"
+notebook = "^7.4.7"
+python-dotenv = "^1.1.1"
+numpy = "^2.3.4"
+langfuse = "^3.8.1"
+ipykernel = "^7.0.1"
+smolagents = {extras = ["e2b"], version = "*"}
+arize-phoenix = "^12.7.1"
+openinference-instrumentation-smolagents = "^0.1.19"
+opentelemetry-exporter-otlp = "^1.38.0"
+opentelemetry-instrumentation = "^0.59b0"
+opentelemetry-sdk = "^1.38.0"
+wikipedia-api = "^0.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

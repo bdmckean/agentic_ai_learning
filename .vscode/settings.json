@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "/Users/brianmckean/Library/Caches/pypoetry/virtualenvs/af-agent-ex6XX-8_-py3.13/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/af-agent"
+    ]
+}
